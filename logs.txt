@@ -1,0 +1,78 @@
+2026-05-18 23:23:13 | INFO | Sistema Software FJ iniciado correctamente.
+2026-05-18 23:23:13 | INFO | Cliente registrado correctamente: C001 - Wilmer Daza
+2026-05-18 23:23:13 | INFO | Finalizó operación registrar_cliente.
+2026-05-18 23:23:13 | INFO | Operación 1 completada sin errores: Registrar cliente válido
+2026-05-18 23:23:13 | ERROR | Error controlado al registrar cliente | Tipo: ClienteInvalidoError | Detalle: El email debe contener '@' y un dominio válido.
+2026-05-18 23:23:13 | INFO | Finalizó operación registrar_cliente.
+2026-05-18 23:23:13 | INFO | Operación 2 completada sin errores: Registrar cliente inválido con email incorrecto
+2026-05-18 23:23:13 | ERROR | Error controlado al registrar cliente | Tipo: ClienteInvalidoError | Detalle: El teléfono debe contener solo números.
+2026-05-18 23:23:13 | INFO | Finalizó operación registrar_cliente.
+2026-05-18 23:23:13 | INFO | Operación 3 completada sin errores: Registrar cliente inválido con teléfono no numérico
+2026-05-18 23:23:13 | INFO | Servicio creado: S001 - Sala Ejecutiva
+2026-05-18 23:23:13 | INFO | Finalizó operación agregar_servicio.
+2026-05-18 23:23:13 | INFO | Operación 4 completada sin errores: Crear servicio válido de reserva de sala
+2026-05-18 23:23:13 | INFO | Servicio creado: S002 - Video Beam Epson
+2026-05-18 23:23:13 | INFO | Finalizó operación agregar_servicio.
+2026-05-18 23:23:13 | INFO | Operación 5 completada sin errores: Crear servicio válido de alquiler de equipo
+2026-05-18 23:23:13 | INFO | Servicio creado: S003 - Asesoría en Python
+2026-05-18 23:23:13 | INFO | Finalizó operación agregar_servicio.
+2026-05-18 23:23:13 | INFO | Operación 6 completada sin errores: Crear servicio válido de asesoría especializada
+2026-05-18 23:23:13 | ERROR | Operación 7 falló con error controlado | Tipo: ServicioInvalidoError | Detalle: La tarifa base debe ser mayor que cero.
+2026-05-18 23:23:13 | INFO | Reserva creada en estado PENDIENTE: R001
+2026-05-18 23:23:13 | INFO | Finalizó operación crear_reserva.
+2026-05-18 23:23:13 | INFO | Operación 8 completada sin errores: Crear reserva válida para sala
+2026-05-18 23:23:13 | INFO | Reserva confirmada correctamente: R001
+2026-05-18 23:23:13 | INFO | Finalizó intento de confirmación para reserva R001
+2026-05-18 23:23:13 | INFO | Finalizó intento de procesamiento para reserva R001
+2026-05-18 23:23:13 | INFO | Operación 9 completada sin errores: Confirmar y procesar reserva válida con impuesto y descuento
+2026-05-18 23:23:13 | ERROR | No se pudo cancelar la reserva R001 | Tipo: OperacionNoPermitidaError | Detalle: No se puede cancelar una reserva ya procesada.
+2026-05-18 23:23:13 | INFO | Finalizó intento de cancelación para reserva R001
+2026-05-18 23:23:13 | ERROR | Operación 10 falló con error controlado | Tipo: OperacionNoPermitidaError | Detalle: No se puede cancelar una reserva ya procesada.
+2026-05-18 23:23:13 | ERROR | Error controlado al crear reserva | Tipo: ServicioInvalidoError | Detalle: La duración debe ser mayor que cero.
+2026-05-18 23:23:13 | INFO | Finalizó operación crear_reserva.
+2026-05-18 23:23:13 | INFO | Operación 11 completada sin errores: Crear reserva fallida por duración negativa
+2026-05-18 23:23:13 | INFO | Disponibilidad cambiada para servicio S002: False
+2026-05-18 23:23:13 | ERROR | Error controlado al crear reserva | Tipo: ServicioNoDisponibleError | Detalle: El servicio seleccionado no está disponible.
+2026-05-18 23:23:13 | INFO | Finalizó operación crear_reserva.
+2026-05-18 23:23:13 | INFO | Operación 12 completada sin errores: Crear reserva fallida por servicio no disponible
+2026-05-18 23:23:13 | INFO | Operación 13 completada sin errores: Demostrar polimorfismo listando descripción y costo base de cada servicio
+2026-05-18 23:23:13 | INFO | Sistema Software FJ finalizó la simulación correctamente.
+2026-05-18 23:41:55 | INFO | Sistema Software FJ iniciado correctamente.
+2026-05-18 23:41:55 | INFO | Cliente registrado correctamente: C001 - Wilmer Daza
+2026-05-18 23:41:55 | INFO | Finalizó operación registrar_cliente.
+2026-05-18 23:41:55 | INFO | Operación 1 completada sin errores: Registrar cliente válido
+2026-05-18 23:41:55 | ERROR | Error controlado al registrar cliente | Tipo: ClienteInvalidoError | Detalle: El email debe contener '@' y un dominio válido.
+2026-05-18 23:41:55 | INFO | Finalizó operación registrar_cliente.
+2026-05-18 23:41:55 | INFO | Operación 2 completada sin errores: Registrar cliente inválido con email incorrecto
+2026-05-18 23:41:55 | ERROR | Error controlado al registrar cliente | Tipo: ClienteInvalidoError | Detalle: El teléfono debe contener solo números.
+2026-05-18 23:41:55 | INFO | Finalizó operación registrar_cliente.
+2026-05-18 23:41:55 | INFO | Operación 3 completada sin errores: Registrar cliente inválido con teléfono no numérico
+2026-05-18 23:41:55 | INFO | Servicio creado: S001 - Sala Ejecutiva
+2026-05-18 23:41:55 | INFO | Finalizó operación agregar_servicio.
+2026-05-18 23:41:55 | INFO | Operación 4 completada sin errores: Crear servicio válido de reserva de sala
+2026-05-18 23:41:55 | INFO | Servicio creado: S002 - Video Beam Epson
+2026-05-18 23:41:55 | INFO | Finalizó operación agregar_servicio.
+2026-05-18 23:41:55 | INFO | Operación 5 completada sin errores: Crear servicio válido de alquiler de equipo
+2026-05-18 23:41:55 | INFO | Servicio creado: S003 - Asesoría en Python
+2026-05-18 23:41:55 | INFO | Finalizó operación agregar_servicio.
+2026-05-18 23:41:55 | INFO | Operación 6 completada sin errores: Crear servicio válido de asesoría especializada
+2026-05-18 23:41:55 | ERROR | Operación 7 falló con error controlado | Tipo: ServicioInvalidoError | Detalle: La tarifa base debe ser mayor que cero.
+2026-05-18 23:41:55 | INFO | Reserva creada en estado PENDIENTE: R001
+2026-05-18 23:41:55 | INFO | Finalizó operación crear_reserva.
+2026-05-18 23:41:55 | INFO | Operación 8 completada sin errores: Crear reserva válida para sala
+2026-05-18 23:41:55 | INFO | Reserva confirmada correctamente: R001
+2026-05-18 23:41:55 | INFO | Finalizó intento de confirmación para reserva R001
+2026-05-18 23:41:55 | INFO | Finalizó intento de procesamiento para reserva R001
+2026-05-18 23:41:55 | INFO | Operación 9 completada sin errores: Confirmar y procesar reserva válida con impuesto y descuento
+2026-05-18 23:41:55 | ERROR | No se pudo cancelar la reserva R001 | Tipo: OperacionNoPermitidaError | Detalle: No se puede cancelar una reserva ya procesada.
+2026-05-18 23:41:55 | INFO | Finalizó intento de cancelación para reserva R001
+2026-05-18 23:41:55 | ERROR | Operación 10 falló con error controlado | Tipo: OperacionNoPermitidaError | Detalle: No se puede cancelar una reserva ya procesada.
+2026-05-18 23:41:55 | ERROR | Error controlado al crear reserva | Tipo: ServicioInvalidoError | Detalle: La duración debe ser mayor que cero.
+2026-05-18 23:41:55 | INFO | Finalizó operación crear_reserva.
+2026-05-18 23:41:55 | INFO | Operación 11 completada sin errores: Crear reserva fallida por duración negativa
+2026-05-18 23:41:55 | INFO | Disponibilidad cambiada para servicio S002: False
+2026-05-18 23:41:55 | ERROR | Error controlado al crear reserva | Tipo: ServicioNoDisponibleError | Detalle: El servicio seleccionado no está disponible.
+2026-05-18 23:41:55 | INFO | Finalizó operación crear_reserva.
+2026-05-18 23:41:55 | INFO | Operación 12 completada sin errores: Crear reserva fallida por servicio no disponible
+2026-05-18 23:41:55 | INFO | Operación 13 completada sin errores: Demostrar polimorfismo listando descripción y costo base de cada servicio
+2026-05-18 23:41:55 | INFO | Sistema Software FJ finalizó la simulación correctamente.
